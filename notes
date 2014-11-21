@@ -10,4 +10,20 @@ git diff --stat
 git commit -m 'commit message'
 git commit -a (adds any tracked file that existed in last commit and since then has been modified without necessarily having been added)
 git reset HEAD (unstage files from index and reset pointer to HEAD)
+modifed so that git reset HEAD can be used as git unstage [file]
+git reset --soft (undo last commit and put files back onto stage)
+git rm file (from working memory as well)
+git rm --cached (just stage)
+git stash and git stash apply
+git branch (name) / creates a branch
+git checkout (name) /switches to branch
+git branch -v (sees last commits on each branch)
+git checkout -b (branchname) / will switch to branch right after creating
+git branch -d (name) /will delete the branch
+git push (remote-name) :(branchname) /deletes remote branch
+git merge (branch name) /merges another branch into current branch
+git log --oneline
+git log --graph
+git tag -a (message) / adds a tag or bookmark to remember commit
+git remote
 

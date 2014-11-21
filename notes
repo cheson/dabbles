@@ -26,4 +26,5 @@ git log --oneline
 git log --graph
 git tag -a (message) / adds a tag or bookmark to remember commit
 git remote
+git remote can push and fetch from different URLs
 
